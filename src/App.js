@@ -3,7 +3,7 @@ import './App.css';
 import './components/TodoItem'
 import TodoItem from './components/TodoItem';
 import classNames from 'classnames';
-// import TrafficLight from './components/TrafficLight';
+
 import img3 from './img/check_1.svg'
 
 
