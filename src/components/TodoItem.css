@@ -1,0 +1,21 @@
+.TodoItem {
+    font-family: Arial, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
+    padding: 10px 5px; 
+    border-bottom: 1px solid rgb(114, 114, 114);
+    display: flex;
+    background-color: rgb(225, 248, 248);
+    border-radius: 10%;
+}
+.TodoItem:last-child{
+    border-bottom: none;
+}
+.TodoItem > p {
+    margin: 0 0 0 10px;
+}
+.TodoItem-complete {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
