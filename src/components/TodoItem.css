@@ -7,7 +7,7 @@
     border-bottom: 1px solid rgb(114, 114, 114);
     display: flex;
     background-color: rgb(225, 248, 248);
-    border-radius: 10%;
+
 }
 .TodoItem:last-child{
     border-bottom: none;
@@ -18,4 +18,11 @@
 .TodoItem-complete {
     text-decoration: line-through;
     opacity: 0.3;
+}
+
+.notShow {
+    display: none;
+}
+.cancelBtn {
+    margin-left: auto;
 }
